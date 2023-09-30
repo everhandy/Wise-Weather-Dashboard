@@ -1,6 +1,6 @@
 function forecastCity(city) {
     // Gets latitude and longitude lines for city using template literals once city input is searched in search-form:
-    const geoRequestUrl = `http://api.openweathermap.org/geo/1.0/direct?q=${city}&appid=4bd72b175d778e384df11bf94d4349d5`;
+    const geoRequestUrl = `https://api.openweathermap.org/geo/1.0/direct?q=${city}&appid=4bd72b175d778e384df11bf94d4349d5`;
     fetch(geoRequestUrl)
     .then(function (response) {
         return response.json();
