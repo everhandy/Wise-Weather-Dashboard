@@ -29,6 +29,10 @@ n/a
 ## Usage:
   
 Open index.html file in your local browser. Search for cities in the Search for a City to Forecast input area or select 'Forecast' next to a city you have searched before in the 'Search History' list.
+
+## Screenshot:
+
+[Screenshot Link](./Assets/wise-weather-screenshot.png)
   
 ## License:
   
